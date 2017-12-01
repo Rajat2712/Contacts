@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rajat.contacts.MainActivity">
+    <item
+        android:id="@+id/save"
+        android:title="Save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cancle"
+        android:title="Cancle"
+        android:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/remove">
+
+    </item>
+
+</menu>
